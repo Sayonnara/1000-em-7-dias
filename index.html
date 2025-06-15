@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon" />
+    <title>Mario & Luigi</title>
+  </head>
+  <body>
+    <header class="links-header">
+      <img src="assets/logo-header.png" class="logo-header" alt="logo-header" />
+      <a href="" class="link">Inicio</a>
+      <a href="" class="link">Sobre</a>
+      <a href="" class="link">Nossos Serviços</a>
+    </header>
+
+    <main>
+      <div class="mae">
+        <div class="box">
+          <img src="assets/logo.png" class="logo" alt="imagem-logo" />
+          <p>
+            Encanadores Mario & Luigi - Resolvendo seus problemas que foram para
+            cano
+          </p>
+          <p>
+            Se você suas soluções foram para o ralo e quer solucionar me chama
+          </p>
+          <button class="bt" onclick="cliqueNoForm()">Me Chame</button>
+        </div>
+
+        <div>
+          <img src="assets/mario.png" class="logo2" alt="" />
+        </div>
+      </div>
+
+      <div class="box-video">
+        <video src="assets/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+      </div>
+
+      <a
+        href="https://wa.me/5512991239857?text=Precisa%20de%20um%20encanador%20!%20%C3%89%20aqui%20mesmo."class="whats">
+        <img src="assets/whatsapp.png"  alt="whatsapp" />
+      </a>
+
+      <form class="fale-conosco">
+        <input placeholder="Diga seu nome">
+        <input placeholder="Diga seu whatsapp">
+        <textarea placeholder="Qual é seu problema..."></textarea>
+        <button >Pedir Orçamento</button>
+      </form>
+
+      <div onclick="esconderForm()" class="mascara-form" ></div>
+
+    </main>
+  </body>
+  <script src="script.js"></script>
+
+
+</html>

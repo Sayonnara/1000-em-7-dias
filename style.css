@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    height: 100vh;
+}
+
+.logo-header {
+    height: 50px;
+    margin: 5px 0px 0px 15px;
+}
+
+.links-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px;
+    position: fixed;
+}
+
+.link {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px 20px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.link:hover {
+    background-color: rgb(232, 4, 4);
+    color: white;
+}
+
+.logo {
+    height: 200px;
+}
+
+.logo2 {
+    height: 500px;
+}
+
+.bt {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+.mae {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.box {
+    width: 100%;
+    margin-left: 50px;
+
+
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    /* Ajuste o valor conforme desejado */
+
+}
+
+.box-video {
+    position: absolute;
+    /* para ficar por trás */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* garante que fique no fundo */
+
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    /* Adicionado para preencher a altura */
+    object-fit: cover;
+    /* Preencher sem distorcer */
+    position: fixed;
+    top: 0;
+
+
+}
+
+.mascara {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.whats img {
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transform: 0.5s ease;
+}
+.whats img:hover{
+    height: 70px;
+}
+.fale-conosco {
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    gap: 10px;
+    position: fixed;
+    top: 30%;
+    left: -290px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.348);
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    transition: left 2s ease-in-out;
+}
+
+
+
+input {
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    outline-color: red;
+    padding: 10px;
+}
+
+textarea {
+    max-width: 258px;
+    min-width: 258px;
+    min-height: 100px;
+    max-height: 300px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    outline-color: red;
+    padding: 10px;
+}
+
+.fale-conosco button {
+    font-size: 15px;
+    background-color: rgba(251, 0, 0, 0.804);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.fale-conosco button:hover{
+    background-color: red ;
+}
+
+.mascara-form {
+    visibility: hidden;
+    position: fixed;
+    background: linear-gradient(109deg, rgba(240, 5, 5, 0.216) 15%, rgba(242, 2, 2, 0.256) 50%, rgba(243, 3, 3, 0.096) 85%);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: 1;
+    transition: visibility 1s ease-in-out;
+
+}
