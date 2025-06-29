@@ -29,3 +29,23 @@ Um site fictício e divertido inspirado no universo do Mario e Luigi, onde os ir
 
 ![mario](https://github.com/user-attachments/assets/23fb2222-ffdd-4123-939a-0582e8343a55)
 
+
+🛠️ O que aprendi com esse projeto
+Como manipular o DOM com JavaScript
+
+Criar efeitos de exibição e ocultação (ex: card do formulário)
+
+Embutir vídeos como background
+
+Estilizar botões e criar interação com o usuário
+
+Inserir botões de contato com WhatsApp usando links dinâmicos
+
+📱 Contato
+📧 Email: sayonnara.tech@gmail.com
+📱 WhatsApp: (12) 99123-9857
+
+⭐ Créditos
+Agradecimento ao  Rodolfo do (DevClub)
+
+Projeto inspirado no universo Nintendo para fins educacionais e demonstração de habilidades em desenvolvimento web. 
